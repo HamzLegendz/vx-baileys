@@ -38,9 +38,9 @@ Use at your own discretion. Do not spam people with this. We discourage any stal
 ## Example
 
 Here is an example you can use: [example.ts](Example/example.ts) or here is a tutorial for running the Baileys WhatsApp API code
-1. ``` cd path/to/Baileys ```
-2. ``` npm install```
-3. ``` node example.js```
+``` cd path/to/Baileys ```
+``` npm install```
+``` node example.js```
 
 ## Install
 
