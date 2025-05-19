@@ -16,7 +16,7 @@
   "repository": {
     "url": "git+ssh://git@github.com/HamzLegendz/vx-baileys.git"
   },
-  "license": "MIT",
+  "license": "GPLv3",
   "author": "Adhiraj Singh",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
