@@ -6,7 +6,7 @@
 
 </div>
 > [!NOTE]
-> Also, this repo is now licenced under ***GPLv3*** since it uses [libsignal-node](https://www.gnu.org/licenses/gpl-3.0.html)
+ Also, this repo is now licenced under **GPLv3** since it uses [libsignal-node](https://www.gnu.org/licenses/gpl-3.0.html).
 
 <div align='center'>
   <img src='https://img.shields.io/github/package-json/v/HamzLegendz/vx-baileys?label=Version&style=for-the-badge' alt='Version Badge'/>
