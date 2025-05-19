@@ -2,10 +2,27 @@
 
 <div align='center'>
 
-![WhatsApp API](https://camo.githubusercontent.com/8c1cc888a216088f8515ca5eb0dc7131bb190d6059af8d02c4616e39b6639114/68747470733a2f2f69696c692e696f2f325a706a746c702e6a7067)
+![WhatsApp API](https://www.anonfile.la/b7997a)
 
 </div>
+> [!NOTE]
+> Also, this repo is now licenced under GPL 3 since it uses [libsignal-node](https://git.questbook.io/backend/service-coderunner/-/merge_requests/1)
+# <div align='center'> **WhatsApp Web API - VX Version** 📱</div>
 
+<div align='center'>
+  <img src='https://img.shields.io/github/package-json/v/HamzLegendz/vx-baileys?label=Version&style=for-the-badge' alt='Version Badge'/>
+  <img src='https://img.shields.io/github/issues/HamzLegendz/vx-baileys?label=Issues&style=for-the-badge' alt='Issues Badge'/>
+  <img src='https://img.shields.io/github/license/HamzLegendz/vx-baileys?style=for-the-badge' alt='License Badge'/>
+</div>
+
+## Project Overview
+**VX-Baileys** is a beta mods WebSocket-based TypeScript library to interact with WhatsApp Web API. It's designed for developers building bots and automation tools with WhatsApp's Web interface. By leveraging the power of **WebSocket**, VX-Baileys provides a reliable and efficient way to manage real-time interactions with WhatsApp.
+
+## Disclaimer
+
+> This project is **not affiliated** with WhatsApp or its subsidiaries in any way. Please use responsibly and ensure compliance with WhatsApp's [Terms of Service](https://www.whatsapp.com/legal).
+
+> **Warning:** Do **not use** this API for spamming, stalkerware, or any form of automated messaging that violates WhatsApp's policies.
 Baileys is a WebSockets-based TypeScript library for interacting with the WhatsApp Web API.
 
 # Disclaimer
@@ -458,13 +475,13 @@ The store also provides some simple functions such as `loadMessages` that utiliz
 ```javascript
 // send a buttons message!
 sock.sendMessage(jid, {
-     text: "Hello World !",
-     footer: "Fizzxy - 2025",
+     text: "Hello World",
+     footer: "example",
      buttons: [
      {
-     buttonId: `🚀`, 
+     buttonId: `example target button`, 
      buttonText: {
-     displayText: '🗿'
+     displayText: 'example of text displayed'
      },
      type: 1 
      }
@@ -1659,113 +1676,7 @@ sock.ws.on('CB:edge_routing,id:abcd', (node: BinaryNode) => { })
 // for any message with tag 'edge_routing', id attribute = abcd & first content node routing_info
 sock.ws.on('CB:edge_routing,id:abcd,routing_info', (node: BinaryNode) => { })
 ```
-
-> [!NOTE]
-> Also, this repo is now licenced under GPL 3 since it uses [libsignal-node](https://git.questbook.io/backend/service-coderunner/-/merge_requests/1)
-# <div align='center'>📱 **WhatsApp Web API - VX Version** 📱</div>
-
-<div align='center'>
-  <img src='https://img.shields.io/github/package-json/v/HamzLegendz/vx-baileys?label=Version&style=for-the-badge' alt='Version Badge'/>
-  <img src='https://img.shields.io/github/issues/HamzLegendz/vx-baileys?label=Issues&style=for-the-badge' alt='Issues Badge'/>
-  <img src='https://img.shields.io/github/license/HamzLegendz/vx-baileys?style=for-the-badge' alt='License Badge'/>
-</div>
-
-## 📘 Project Overview
-**VX-Baileys** is a modern WebSocket-based TypeScript library to interact with WhatsApp Web API. It's designed for developers building bots and automation tools with WhatsApp's Web interface. By leveraging the power of **WebSocket**, VX-Baileys provides a reliable and efficient way to manage real-time interactions with WhatsApp.
-
-## ⚠️ Disclaimer
-
-> This project is **not affiliated** with WhatsApp or its subsidiaries in any way. Please use responsibly and ensure compliance with WhatsApp's [Terms of Service](https://www.whatsapp.com/legal).
-
-> **Warning:** Do **not use** this API for spamming, stalkerware, or any form of automated messaging that violates WhatsApp's policies.
-
-## 🚀 Installation
-
-Install the stable version via npm:
-```bash
-npm install @HamzLegendz/vx-baileys
-```
-
-Or use the edge version for the latest features:
-```bash
-yarn add @HamzLegendz/vx-baileys@latest
-```
-
-### Import in Your Project:
-```javascript
-const { default: makeWASocket } = require("@HamzLegendz/vx-baileys")
-```
-
-## 🔧 Usage Example
-
-Here's a simple example to get you started:
-
-1. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-2. Run the example script:
-   ```bash
-   node example.js
-   ```
-
-### Connect with QR Code
-```javascript
-const { default: makeWASocket } = require("@HamzLegendz/vx-baileys")
-
-const sock = makeWASocket({
-    browser: Browsers.ubuntu('My App'),
-    printQRInTerminal: true
-})
-```
-
-### Handle Connection Update and Messages
-```javascript
-sock.ev.on('connection.update', (update) => {
-    console.log(update);
-});
-
-sock.ev.on('messages.upsert', (msg) => {
-    console.log(msg);
-});
-```
-
-## 📋 Features
-
-- **Connection Methods**: Support for both QR-code and pairing code-based connections.
-- **Send & Receive Messages**: Easily send text, media, and interactive messages.
-- **Group Management**: Full support for group operations such as adding/removing participants, changing names, and more.
-- **Persistent Sessions**: Save and restore sessions without needing to scan the QR code each time.
-- **Multimedia Support**: Send GIFs, audio, video, and images.
-- **Event Handling**: Handle real-time events like message reception and updates.
-
-## 🌐 Documentation
-
-Detailed documentation can be found on the [official GitHub repository](https://github.com/HamzLegendz/vx-baileys). Below are some of the key sections you can refer to.
-
-- [Connecting Account](#connecting-account)
-- [Send Messages](#sending-messages)
-- [Handling Events](#handling-events)
-- [Groups](#groups)
-- [Privacy Settings](#privacy)
-- [Broadcasts](#broadcast-lists--stories)
-
-## 🛠️ Development & Contributing
-
-1. Fork this repository.
-2. Clone your fork and create a new branch for your changes.
-3. Submit a Pull Request with your changes and a description of what was done.
-
-### Required Tools
-
-- **Node.js**: v16.0 or higher
-- **TypeScript**: Recommended for best development experience.
-
-## 📜 License
-
 This project is licensed under the [MIT License](LICENSE).
-
 ---
 
 Made with 💖 by **HamzLegendz** for the community!
