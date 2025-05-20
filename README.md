@@ -9,11 +9,9 @@
 > [GPLv3](https://www.gnu.org/licenses/gpl-3.0.html)
 
 ---
-
-![Version](https://img.shields.io/github/package-json/v/HamzLegendz/vx-baileys?label=Version&style=for-the-badge&color=1e88e5&logo=npm)
-![Issues](https://img.shields.io/github/issues/HamzLegendz/vx-baileys?label=Issues&style=for-the-badge&color=d32f2f&logo=github)
+![Version](https://img.shields.io/github/package-json/v/hamzlegendz/vx-baileys?label=Version&style=for-the-badge&color=1e88e5&logo=npm)
+![Issues](https://img.shields.io/github/issues/hamzlegendz/vx-baileys?label=Issues&style=for-the-badge&color=d32f2f&logo=github)
 ![License](https://img.shields.io/badge/License-GPLv3-43a047?style=for-the-badge&logo=gnu)
-
 </div>
 
 ## Project Overview
