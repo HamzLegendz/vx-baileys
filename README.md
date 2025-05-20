@@ -1,20 +1,19 @@
-# <div align='center'>WhatsApp Web API</div>
-
 <div align='center'>
+
+# WhatsApp Web API
 
 ![WhatsApp API](https://www.anonfile.la/b7997a)
 
-<div style="padding: 1rem; background: #e3f2fd; border-left: 4px solid #1e88e5; margin: 1rem 0; font-family: sans-serif;">
-  <strong style="font-size: 1.1rem;">[!NOTE]</strong><br>
-  Also, this repo is now licensed under 
-  <a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank" style="color: #1e88e5; font-weight: bold; text-decoration: none;">
-    GPLv3
-  </a>
-</div>
-<div align="center" style="margin: 1.5rem 0;">
-  <img src="https://img.shields.io/github/package-json/v/HamzLegendz/vx-baileys?label=Version&style=for-the-badge&color=1e88e5&logo=npm" alt="Version"/>
-  <img src="https://img.shields.io/github/issues/HamzLegendz/vx-baileys?label=Issues&style=for-the-badge&color=d32f2f&logo=github" alt="Issues"/>
-  <img src="https://img.shields.io/badge/License-GPLv3-43a047?style=for-the-badge&logo=gnu" alt="License"/>
+> **[!NOTE]**  
+> Also, this repo is now licensed under  
+> [GPLv3](https://www.gnu.org/licenses/gpl-3.0.html)
+
+---
+
+![Version](https://img.shields.io/github/package-json/v/HamzLegendz/vx-baileys?label=Version&style=for-the-badge&color=1e88e5&logo=npm)
+![Issues](https://img.shields.io/github/issues/HamzLegendz/vx-baileys?label=Issues&style=for-the-badge&color=d32f2f&logo=github)
+![License](https://img.shields.io/badge/License-GPLv3-43a047?style=for-the-badge&logo=gnu)
+
 </div>
 
 ## Project Overview
