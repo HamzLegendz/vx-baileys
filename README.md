@@ -3,11 +3,6 @@
 # WhatsApp Web API
 
 ![WhatsApp API](https://www.anonfile.la/b7997a)
-
-> **[!NOTE]**  
-> Also, this repo is now licensed under  
-> [GPLv3](https://www.gnu.org/licenses/gpl-3.0.html)
-
 ---
 ![Version](https://img.shields.io/github/package-json/v/hamzlegendz/vx-baileys?label=Version&style=for-the-badge&color=1e88e5&logo=npm)
 ![Issues](https://img.shields.io/github/issues/hamzlegendz/vx-baileys?label=Issues&style=for-the-badge&color=d32f2f&logo=github)
@@ -1675,6 +1670,7 @@ sock.ws.on('CB:edge_routing,id:abcd', (node: BinaryNode) => { })
 // for any message with tag 'edge_routing', id attribute = abcd & first content node routing_info
 sock.ws.on('CB:edge_routing,id:abcd,routing_info', (node: BinaryNode) => { })
 ```
+also, this repo is now licensed under [GPLv3](https://www.gnu.org/licenses/gpl-3.0.html)
 ---
 
 Made with 💖 by **HamzLegendz** for the community!
