@@ -11,7 +11,6 @@
     GPLv3
   </a>
 </div>
-
 <div align="center" style="margin: 1.5rem 0;">
   <img src="https://img.shields.io/github/package-json/v/HamzLegendz/vx-baileys?label=Version&style=for-the-badge&color=1e88e5&logo=npm" alt="Version"/>
   <img src="https://img.shields.io/github/issues/HamzLegendz/vx-baileys?label=Issues&style=for-the-badge&color=d32f2f&logo=github" alt="Issues"/>
@@ -1679,7 +1678,6 @@ sock.ws.on('CB:edge_routing,id:abcd', (node: BinaryNode) => { })
 // for any message with tag 'edge_routing', id attribute = abcd & first content node routing_info
 sock.ws.on('CB:edge_routing,id:abcd,routing_info', (node: BinaryNode) => { })
 ```
-This project is licensed under the [MIT License](LICENSE).
 ---
 
 Made with 💖 by **HamzLegendz** for the community!
