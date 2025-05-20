@@ -14,6 +14,8 @@ export type FullJid = JidWithDevice & {
 };
 export declare const jidEncode: (user: string | number | null, server: JidServer, device?: number, agent?: number) => string;
 export declare const jidDecode: (jid: string | undefined) => FullJid | undefined;
+/** is the jid Meta IA */ 
+ export const isJidMetaIa = (jid: string | undefined) => (jid?.endsWith('@bot'))
 /** is the jid a user */
 export declare const areJidsSameUser: (jid1: string | undefined, jid2: string | undefined) => boolean;
 /** is the jid a user */
